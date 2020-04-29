@@ -1,0 +1,52 @@
+.sidebar{
+    padding:0;
+    margin-left:14px;
+   
+    
+    background:#4e4e4e;
+}
+
+.content{
+
+    width:921px;
+    background: #fff;
+}
+
+.postImage{
+           border-radius:10px;
+           border:2px solid orangered;
+         }
+
+.footer{
+        overflow: hidden;
+        height:80px
+}    
+
+.footer h3{
+          margin-top:20px;}
+
+
+
+
+.header_Section{
+            overflow:hidden;
+            height:80px;
+    }    
+    
+
+
+    
+.content_section{
+    padding-left:0;
+}    
+
+.sidebar_section{
+
+    padding:0;
+}
+
+
+
+.pagination{margin-left: 250px;}
+
+
