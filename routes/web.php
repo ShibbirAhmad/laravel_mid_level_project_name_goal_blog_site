@@ -11,13 +11,17 @@
 |
 */
 
+Route::group(['prefix' => 'admin', 'middleware'=> 'auth'], function () {
+
+      Route::get('/layout',['as' => 'dahsboardRoute','uses' => 'DashboardController@index']);
+    
+      
 
 
-     Route::get('/',function(){
+});
 
-            return view ('welcome');
-     });
-     
+
+
 
 // Route::get('/home', 'HomeController@index')->name('home');
 
